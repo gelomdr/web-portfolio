@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#landing {
+    background-color: #F6F5F5;
+    text-align: center;
+}
+
+#landing h1 {
+	font-size: 3rem;
+}
+#landing h2 {
+	font-size: 2rem;
+}
+
+#projects, #contact, {
+    background-color: #F6F5F2;
+}
+
+#tools	{
+	background-color: #F6F5F5;
+}
+
+.section-heading {
+    margin-bottom: 60px;
+}
+
+#tools .section-heading {
+	margin-bottom: 10px;
+}
+
+#contact textarea {
+	resize: none;
+}
+
+.card-body p {
+	text-align: justify;
+}
+
+.contact_icon {
+	width: 50px;
+	height: 50px;
+}
+
+.btn-explore {
+	background: transparent !important;
+	border-top: solid 1px transparent;
+	border-bottom: dotted 1px #31363F;
+}
+
+.btn-explore:hover	{
+	background: #31363F !important;
+	border-top: solid 1px transparent;
+	border-bottom: solid 1px transparent;
+	color: #FEFAF6;
+}
+
+.btn-expand {
+	background: transparent !important;
+	border-top: solid 1px transparent;
+	border-bottom: dotted 1px #31363F;
+}
+
+.btn-expand:hover {
+	background: #31363F !important;
+	border-top: solid 1px transparent;
+	border-bottom: solid 1px transparent;
+	color: #FFFFFF;
+}
+
+.btn-send {
+	background: transparent !important;
+	border-top: solid 1px transparent;
+	border-bottom: dotted 1px #31363F;
+}
+
+.btn-send:hover {
+	background: #31363F !important;
+	border-top: solid 1px transparent;
+	border-bottom: solid 1px transparent;
+	color: #F6F5F2;
+}
+
+.card-text {
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    display: -webkit-box; /* Use WebKit box layout */
+    -webkit-line-clamp: 2; /* Show only 2 lines */
+    -webkit-box-orient: vertical; /* Vertical orientation */
+    line-height: 1.5; /* Adjust line height for better readability */
+    height: 3em; /* Adjust height for 2 lines */
+    transition: height 0.3s ease;
+}
+.card-text.expanded {
+    display: block; /* Show full text when expanded */
+    -webkit-line-clamp: unset; /* Remove line clamp */
+    height: auto;
+}
+
+figcaption {
+	font-size: 1rem;
+	color: #35374B;
+}
