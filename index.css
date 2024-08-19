@@ -102,11 +102,11 @@ section {
 
 /* Light Mode Variables */
 :root {
-    --background-landing: #F6F5F5;
-    --bg-projects-and-contact: #FFFFFF;
+    --bg-landing: #F6F5F5;
+    --bg-projects-contact: #FFFFFF;
     --bg-tools: #F5F5F5;
     --btn-font-color: #FEFAF6;
-    --btn-border-light: #31363F;
+    --btn-border: #31363F;
     --btn-bg: transparent;
     --card-body-bg: #F1F1F1;
 }
@@ -115,11 +115,11 @@ section {
 /* Dark Mode Variables */
 body.dark-mode {
 	--darkmode-font: #FFFAFA;
-    --background-landing: #0C0C0C;
-    --bg-projects-and-contact: #303030;
+    --bg-landing: #0C0C0C;
+    --bg-projects-contact: #303030;
     --bg-tools: #151515;
     --btn-font-color: #0C0C0C;
-    --btn-border-light: #F6F5F2;
+    --btn-border: #F6F5F2;
     --btn-bg: transparent;
     --card-body-bg: #151515;
 }
@@ -129,7 +129,7 @@ body.dark-mode {
 /* ----------------------------------Landing---------------------------------- */
 
 #landing {
-	background-color: var(--background-landing);
+	background-color: var(--bg-landing);
 	color: var();
     text-align: center;
 }
@@ -151,11 +151,11 @@ body.dark-mode {
 	background: var(--btn-bg) !important;
 	color: var(--darkmode-font);
 	border-top: solid 1px transparent;
-	border-bottom: dotted 1px var(--btn-border-light);
+	border-bottom: dotted 1px var(--btn-border);
 }
 
 .btn-explore:hover	{
-	background: var(--btn-border-light) !important;
+	background: var(--btn-border) !important;
 	border-top: solid 1px transparent;
 	border-bottom: solid 1px transparent;
 	color: var(--btn-font-color);
@@ -165,7 +165,7 @@ body.dark-mode {
 /* ----------------------------------Projects---------------------------------- */
 
 #projects {
-	background-color: var(--bg-projects-and-contact) !important;
+	background-color: var(--bg-projects-contact) !important;
 }
 
 #projects .card {
@@ -198,12 +198,12 @@ body.dark-mode {
 .btn-expand {
 	background: var(--btn-bg) !important;
 	border-top: solid 1px transparent;
-	border-bottom: dotted 1px var(--btn-border-light);
+	border-bottom: dotted 1px var(--btn-border);
 	color: var(--darkmode-font);
 }
 
 .btn-expand:hover {
-	background: var(--btn-border-light) !important;
+	background: var(--btn-border) !important;
 	border-top: solid 1px transparent;
 	border-bottom: solid 1px transparent;
 	color: var(--btn-font-color);
@@ -229,7 +229,7 @@ figcaption {
 /* ----------------------------------Contact---------------------------------- */
 
 #contact {
-	background-color: var(--bg-projects-and-contact) !important;
+	background-color: var(--bg-projects-contact) !important;
 }
 
 #contact textarea {
@@ -254,12 +254,12 @@ figcaption {
 .btn-send {
 	background: var(--btn-bg) !important;
 	border-top: solid 1px transparent;
-	border-bottom: dotted 1px var(--btn-border-light);
+	border-bottom: dotted 1px var(--btn-border);
 	color: var(--darkmode-font);
 }
 
 .btn-send:hover {
-	background: var(--btn-border-light) !important;
+	background: var(--btn-border) !important;
 	border-top: solid 1px transparent;
 	border-bottom: solid 1px transparent;
 	color: var(--btn-font-color);

@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', function() {
     const toggleSwitch = document.getElementById('theme-toggle');
-    const themeCaption = document.getElementById('theme-caption');
     const body = document.body;
 
     // Check if a theme is saved in localStorage
